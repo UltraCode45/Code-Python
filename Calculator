@@ -1,0 +1,36 @@
+c = "y" 
+
+while (c=="y"):
+       print("1.+")
+       print("2.-")
+       print("3./")
+       print("4.*")
+       choice = int(input("Enter your choice:")) #Select the operand by selecting the number 1/2/3/4
+
+       if (choice ==1):
+             a=float(input("Enter no:"))
+             b=float(input("Enter no:"))
+             c=a+b
+             print(c)
+             
+       elif (choice ==2):
+           x=float(input("Enter no:"))
+           y=float(input("Enter no:"))
+           z=x-y
+           print(z)
+
+       elif (choice ==3):
+           f=float(input("Enter no:"))
+           g=float(input("Enter no:"))
+           h=f//g
+           print(h)
+
+       elif (choice ==4):
+           i = float(input("Enter no:"))
+           j= float(input("Enter no:"))
+           k = i*j
+           print(k)
+           
+       else:
+           print("Invalid choice",choice)
+       c = input("Do you want to continue?") #Enter either y for yes or n for no.If you press n the program stops
